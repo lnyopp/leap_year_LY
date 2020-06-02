@@ -20,4 +20,11 @@ public class LeapYearTest {
 		  Assert.assertTrue(true);
 	    }
 	  
+	  @Test
+	    public final void isYearProperFormat() {
+	       
+		  LeapYear.numberOfChar("1970");
+		  Assert.assertTrue(true);
+	    }
+	  
 }

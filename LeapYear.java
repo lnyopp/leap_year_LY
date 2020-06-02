@@ -26,5 +26,18 @@ public class LeapYear {
 		
 	}
 	
+	String formatYear = String.valueOf(year); 
+	
+	public static boolean numberOfChar(String formatYear) {
+		
+		if(formatYear.length() == 4) {
+			return true;
+			
+		}else {
+			return false;
+		}
+		
+	}
+	
 		
 	}
